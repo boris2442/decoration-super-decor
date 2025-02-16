@@ -22,10 +22,9 @@
         background-repeat: no-repeat;
         width: 100%;
         min-height: 100vh;
-    
-        
-
-
-
+    }
+    .spanTitle{
+        color:#FF9D00;
+        /* color:#333; */
     }
 }
