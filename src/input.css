@@ -2,16 +2,30 @@
 /* npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch */
 
 @layer utilities{
-    header a::after{
+    header a::before{
         content:"";
         position: absolute;
         height: 2px;
         width: 0%;
         background-color: #fff;
         left: 0;
+        bottom: -2px;
     }
-    header :hover::after{
+    header :hover::before{
         width: 100%;
         transition: width .7s ease-in-out;
+    }
+    .hero-section{
+        background-image: url("../asset/hero-section_LE_auto_x4 (5)-min.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 100vh;
+    
+        
+
+
+
     }
 }
