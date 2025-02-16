@@ -1,0 +1,17 @@
+@import "tailwindcss";
+/* npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch */
+
+@layer utilities{
+    header a::after{
+        content:"";
+        position: absolute;
+        height: 2px;
+        width: 0%;
+        background-color: #fff;
+        left: 0;
+    }
+    header :hover::after{
+        width: 100%;
+        transition: width .7s ease-in-out;
+    }
+}
