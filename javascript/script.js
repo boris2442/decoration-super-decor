@@ -1,3 +1,8 @@
+window.onload = function() {
+    document.querySelector('.loader').style.display = 'none';
+    document.querySelector('.loader').style.transition='5s ease-out'
+};
+
 const title=document.querySelector("h1");
 const typewriter=new Typewriter(title, {
     loop:true,
@@ -12,3 +17,5 @@ typewriter
 .pauseFor(2000)
 .deleteAll()
 .start()
+
+
