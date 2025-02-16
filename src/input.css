@@ -27,4 +27,7 @@
         color:#FF9D00;
         /* color:#333; */
     }
+    h1{ 
+        font-size: clamp(30px, 5vw, 60px);
+    }
 }

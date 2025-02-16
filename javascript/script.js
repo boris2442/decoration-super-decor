@@ -5,7 +5,7 @@ const typewriter=new Typewriter(title, {
 })
 
 typewriter
-.typeString("<span>SUPER DECOR:</span><br /> <span class='spanTitle'>L’art de l’événement, l’élégance en chaque détail 🤌 </span> ")
+.typeString("<span>SUPER DECOR:</span><br /> <span class='spanTitle'>EXPERT EN DECORATION EVENEMENTIELLE 🤌 </span> ")
 .pauseFor(2000)
 .deleteAll()
 .typeString(" " )

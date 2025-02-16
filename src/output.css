@@ -560,9 +560,6 @@
   .flex {
     display: flex;
   }
-  .inline {
-    display: inline;
-  }
   .inline-flex {
     display: inline-flex;
   }
@@ -580,6 +577,9 @@
   }
   .h-\[80px\] {
     height: 80px;
+  }
+  .min-h-\[100vh\] {
+    min-height: 100vh;
   }
   .w-\[80px\] {
     width: 80px;
@@ -633,8 +633,8 @@
   .bg-\[\#FF9D00\] {
     background-color: #FF9D00;
   }
-  .bg-\[🤌\] {
-    background-color: 🤌;
+  .bg-\[\#fff\] {
+    background-color: #fff;
   }
   .p-\[10px\] {
     padding: 10px;
@@ -645,10 +645,6 @@
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
-  }
-  .text-4xl {
-    font-size: var(--text-4xl);
-    line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
   .text-\[20px\] {
     font-size: 20px;
@@ -706,20 +702,6 @@
       }
     }
   }
-  .hover\:text-\[\#333\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #333;
-      }
-    }
-  }
-  .hover\:text-\[\#33\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #33;
-      }
-    }
-  }
   .hover\:text-\[\#FF9D00\] {
     &:hover {
       @media (hover: hover) {
@@ -752,6 +734,9 @@
   }
   .spanTitle {
     color: #FF9D00;
+  }
+  h1 {
+    font-size: clamp(30px, 5vw, 60px);
   }
 }
 @keyframes spin {
