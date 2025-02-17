@@ -3,7 +3,7 @@
 
 @layer utilities{
     body{
-        font-family: "Parkinsans",  "Poppins",;
+        font-family:"Poppins", "Parkinsans",;
     }
     header a::before{
         content:"";
