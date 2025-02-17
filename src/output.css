@@ -737,17 +737,20 @@
   .text-\[\#FF9D00\] {
     color: #FF9D00;
   }
+  .text-\[\#FF9D\] {
+    color: #FF9D;
+  }
+  .text-\[\#FF\] {
+    color: #FF;
+  }
+  .text-\[\#\] {
+    color: #;
+  }
   .text-\[\#f1f1f1\] {
     color: #f1f1f1;
   }
   .text-\[\#fff\] {
     color: #fff;
-  }
-  .text-\[1\.7ren\] {
-    color: 1.7ren;
-  }
-  .text-\[1\.\] {
-    color: 1.;
   }
   .text-white {
     color: var(--color-white);
@@ -970,6 +973,10 @@
   }
   .box {
     box-shadow: 2px 3px 5px #333;
+  }
+  footer {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
   }
 }
 @keyframes spin {

@@ -154,5 +154,9 @@
         /* padding: 20px; */
         /* background-color: red; */
       }
+      footer{
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+      }
        
 }
