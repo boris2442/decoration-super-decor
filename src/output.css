@@ -752,6 +752,12 @@
   .text-\[\#fff\] {
     color: #fff;
   }
+  .text-\[2\] {
+    color: 2;
+  }
+  .text-\[2xl\] {
+    color: 2xl;
+  }
   .text-white {
     color: var(--color-white);
   }
