@@ -158,5 +158,22 @@
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
       }
-       
+      footer container-footer a{
+        position: relative;
+        background-color: red!important;
+      }
+      footer container-footer a::before{
+        content:"";
+        position: absolute;
+        height: 2px;
+        width: 0%;
+        background-color: #fff;
+        left: 0;
+        bottom: -2px;
+      };
+       footer i{
+        height: 50px;
+        width: 50px;
+        border: 2px solid #333;
+       }
 }
